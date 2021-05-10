@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9428a1fa.chunk.css",
+    "main.js": "/static/js/main.edab60db.chunk.js",
+    "main.js.map": "/static/js/main.edab60db.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
+    "static/css/2.ec02d681.chunk.css": "/static/css/2.ec02d681.chunk.css",
+    "static/js/2.beafc18d.chunk.js": "/static/js/2.beafc18d.chunk.js",
+    "static/js/2.beafc18d.chunk.js.map": "/static/js/2.beafc18d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ec02d681.chunk.css.map": "/static/css/2.ec02d681.chunk.css.map",
+    "static/css/main.9428a1fa.chunk.css.map": "/static/css/main.9428a1fa.chunk.css.map",
+    "static/js/2.beafc18d.chunk.js.LICENSE.txt": "/static/js/2.beafc18d.chunk.js.LICENSE.txt",
+    "static/media/images.css": "/static/media/tunnel_hack.4fc60ab5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2fd7dc15.js",
+    "static/css/2.ec02d681.chunk.css",
+    "static/js/2.beafc18d.chunk.js",
+    "static/css/main.9428a1fa.chunk.css",
+    "static/js/main.edab60db.chunk.js"
+  ]
+}
