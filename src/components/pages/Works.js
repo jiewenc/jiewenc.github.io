@@ -13,23 +13,11 @@ const Works = () => {
                 </>
                 <div className="row">
                 {projects && projects.map((x) => 
-                <Project id={x.id} url={x.url} name={x.name} skills={x.skills}/>
+                <Project id={x.id} url={x.url} name={x.name} skills={x.skills} year={x.year}/>
                 )}
                 </div>
             </div>
 
-            <div className="third">
-                <>
-                    <div className="pp-head-line mx-auto text-center">
-                        <h1 id="Projects" className="red-line pp-head">{section4Title}</h1>
-                    </div>
-                </>
-                <div className="row">
-                    {miscellaneous && miscellaneous.map((x) => 
-                    <Project id={x.id} url={x.url} name={x.name} />
-                    )}
-                </div>
-            </div>
         </>
     )
 }

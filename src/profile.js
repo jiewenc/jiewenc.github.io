@@ -9,17 +9,17 @@ const animation = {
 }
 // Change your display name on tha landing display
 const header = {
-    name: "a Human",
+    name: "Angela Chen",
 }
 const background = {
     // Options: Snow or Particle
-    type: "Snow"
+    type: "Particle"
 }
 // Write a para about yourself here
 // To update your image, go to './styles/images.css'
 const section2title = "About Me"
 const about = {
-    paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. Orci phasellus egestas tellus rutrum tellus pellentesque eu. Dapibus ultrices in iaculis nunc. Pretium nibh ipsum consequat nisl vel. Consequat ac felis donec et odio. Orci nulla pellentesque dignissim enim sit amet. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu."
+    paragraph: "Angela is a front-end developer, creative programmer, designer, storyteller @CMU who has a huge passion for the combination of technology, design and art."
 }
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
@@ -46,14 +46,8 @@ const skillsBar = [
         name: "Java",
         faClass: "fab fa-java"
     },{
-        name: "PHP",
-        faClass: "fab fa-php"
-    },{
         name: "Database",
         faClass: "fas fa-database"
-    },{
-        name: "AWS",
-        faClass: "fab fa-aws"
     },{
         name: "Docker",
         faClass: "fab fa-docker"
@@ -64,12 +58,6 @@ const skillsBar = [
         name: "Heroku",
         faClass: "fas fa-h-square"
     },{
-        name: "Swift",
-        faClass: "fab fa-swift"
-    },{
-        name: "Linux",
-        faClass: "fab fa-linux"
-    },{
         name: "Wordpress",
         faClass: "fab fa-wordpress"
     }
@@ -77,49 +65,71 @@ const skillsBar = [
 // Edit your projects, its name, your skills used to make it, and the url. 
 // You can omit freely anything if you dont have it
 // To Add a Project, copy any one below and paste it after the last comma and increment the id's project number
-const section3Title = "Past Projects"
+const section3Title = "Recent Projects"
 const projects = [
     {
         // Add image in './styles/images.css' in #project1
         id: "project1",
-        name: "Project 1",
-        skills: ["HTML, CSS, JS"],
-        url: "https://github.com/kaustubhai"
+        name: "Museum.Live",
+        skills: ["Web Application Development"],
+        url: "#",
+        year: "2020"
     },
     {
         // Add image in './styles/images.css' in #project2
         id: "project2",
-        name: "Project 2",
-        skills: ["HTML, CSS, JS"],
-        url: "https://github.com/kaustubhai"
+        name: "CMU CS Academy",
+        skills: ["Web UX Design"],
+        url: "#",
+        year: "2020"
     },
     {
         // Add image in './styles/images.css' in #project3
         id: "project3",
-        name: "Project 3",
-        skills: ["HTML, CSS, JS"],
-        url: "https://github.com/kaustubhai"
+        name: "Foresight",
+        skills: ["VR Creative Solution"],
+        url: "#",
+        year: "2020"
     },
     {
         // Add image in './styles/images.css' in #project4
         id: "project4",
-        name: "Project 4",
-        skills: ["HTML, CSS, JS"],
-        url: "https://github.com/kaustubhai"
+        name: "Natours",
+        skills: ["Front End Development"],
+        url: "#",
+        year: "2021"
     },
     {
         // Add image in './styles/images.css' in #project5
         id: "project5",
-        name: "Project 5",
-        skills: ["HTML, CSS, JS"],
-        url: "https://github.com/kaustubhai"
+        name: "Bubble Sort",
+        skills: ["Full Stack Development"],
+        url: "#",
+        year: "2020"
     },
     {
         // Add image in './styles/images.css' in #project6
         id: "project6",
-        name: "Project 6",
-        skills: ["HTML, CSS, JS"],
-        url: "https://github.com/kaustubhai"
+        name: "Baby Go",
+        skills: ["VR Experience Design"],
+        url: "#",
+        year: "2019"
+    },
+    {
+        // Add image in './styles/images.css' in #project6
+        id: "project7",
+        name: "Equinox",
+        skills: ["VR Experience Design"],
+        url: "#",
+        year: "2019"
+    },
+    {
+        // Add image in './styles/images.css' in #project6
+        id: "project8",
+        name: "Tunnel Hack",
+        skills: ["VR Experience Design"],
+        url: "#",
+        year: "2019"
     },
 ]
 // Edit your Miscellaneous Activities, its name and the url. 
@@ -151,8 +161,8 @@ const miscellaneous = [
 // If you hacve the link already, paste it in the contactUrl below
 const section5Title = "Get in Touch"
 const contact = {
-    pitch: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
-    copyright: "Kaustubh Mishra",
+    pitch: "Let's talk and make create projects together! Feel free to connect with me through Linkedin, Facebook, Instagram or Github :)",
+    copyright: "Jiewen (Angela) Chen",
     contactUrl: ''
 }
 // Paste your respective social media links. You can omit any if you dont have it

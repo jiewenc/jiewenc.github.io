@@ -1,31 +1,39 @@
 
 /* Add your profile image here */
 .Photo{
-    background-image: url('https://images.pexels.com/photos/3799821/pexels-photo-3799821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: url(../img/Angela_Chen_1.JPG);
 }
 /* Projects Photo */
 .project1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+one');
+    background-image: url(../img/museum-live_poster\ \(1\).jpg);
     cursor: none;    
 }
 .project2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+two');
+    background-image: url(../img/cs_academy.png);
     cursor: none;
 }
 .project3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+three');
+    background-image: url(../img/Screen\ Shot\ 2021-02-14\ at\ 10.21.35\ PM.png);
     cursor: none;
 }
 .project4{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+four');
+    background-image: url(../img/natours.png);
     cursor: none;
 }
 .project5{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+five');
+    background-image: url(../img/Screen\ Shot\ 2021-02-15\ at\ 12.45.24\ AM.png);
     cursor: none;
 }
 .project6{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
+    background-image: url('https://static.wixstatic.com/media/8d5b70_d85365830a8a4a7e8f4737d961897eeb~mv2.jpeg/v1/fill/w_1600,h_808,al_c,q_85/8d5b70_d85365830a8a4a7e8f4737d961897eeb~mv2.webp');
+    cursor: none;
+}
+.project7{
+    background-image: url(../img/equinox.PNG);
+    cursor: none;
+}
+.project8{
+    background-image: url(../img/tunnel_hack.jpg);
     cursor: none;
 }
 /* Miscelaneous Activities photo */
@@ -44,4 +52,5 @@
 /* Contact form parallax effect image */
 .parallax{
     background-image: url('https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    /* background-image: url(../img/IMG_0573.jpg) */
 }

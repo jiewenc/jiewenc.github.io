@@ -4,6 +4,7 @@ import Header from './components/pages/Header'
 import About from './components/pages/About'
 import Works from './components/pages/Works'
 import Contact from './components/pages/Contact'
+import Films from './components/pages/Films'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { animation } from './profile'
@@ -24,8 +25,8 @@ function App() {
     <div className="App">
       <Header />
       <Particles />
-      <About />
-      <Works />
+      {localStorage.mode == 'Light' ?  <><Works /><About /></> : <Films />}
+     
       <Contact />
     </div>
   );
